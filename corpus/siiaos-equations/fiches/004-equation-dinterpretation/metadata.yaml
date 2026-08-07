@@ -1,0 +1,12 @@
+{
+  "id": "EQ-0004",
+  "numero": 4,
+  "titre": "Équation d’interprétation",
+  "finalite": "Donner du sens selon les perspectives.",
+  "type": "equation-ou-modele",
+  "statut": "conceptuel-methodologique",
+  "image": "fiche.png",
+  "note": "note.md",
+  "source": "fiche visuelle générée dans la conversation",
+  "relations": []
+}

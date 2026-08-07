@@ -1,0 +1,12 @@
+{
+  "id": "EQ-0005",
+  "numero": 5,
+  "titre": "Équation de gouvernance",
+  "finalite": "Décider, mandater, organiser.",
+  "type": "equation-ou-modele",
+  "statut": "conceptuel-methodologique",
+  "image": "fiche.png",
+  "note": "note.md",
+  "source": "fiche visuelle générée dans la conversation",
+  "relations": ["EQ-0046","EQ-0060"]
+}

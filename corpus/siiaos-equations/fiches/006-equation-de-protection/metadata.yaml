@@ -1,0 +1,12 @@
+{
+  "id": "EQ-0006",
+  "numero": 6,
+  "titre": "Équation de protection",
+  "finalite": "Prévenir, immuniser, isoler.",
+  "type": "equation-ou-modele",
+  "statut": "conceptuel-methodologique",
+  "image": "fiche.png",
+  "note": "note.md",
+  "source": "fiche visuelle générée dans la conversation",
+  "relations": []
+}

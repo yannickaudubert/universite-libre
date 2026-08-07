@@ -1,0 +1,12 @@
+{
+  "id": "EQ-0001",
+  "numero": 1,
+  "titre": "Équation d’observation",
+  "finalite": "Rendre visible ce qui est.",
+  "type": "equation-ou-modele",
+  "statut": "conceptuel-methodologique",
+  "image": "fiche.png",
+  "note": "note.md",
+  "source": "fiche visuelle générée dans la conversation",
+  "relations": ["EQ-0031","EQ-0051"]
+}

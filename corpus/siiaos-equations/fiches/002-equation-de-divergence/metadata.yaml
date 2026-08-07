@@ -1,0 +1,12 @@
+{
+  "id": "EQ-0002",
+  "numero": 2,
+  "titre": "Équation de divergence",
+  "finalite": "Ouvrir le champ des possibles.",
+  "type": "equation-ou-modele",
+  "statut": "conceptuel-methodologique",
+  "image": "fiche.png",
+  "note": "note.md",
+  "source": "fiche visuelle générée dans la conversation",
+  "relations": ["EQ-0052"]
+}
