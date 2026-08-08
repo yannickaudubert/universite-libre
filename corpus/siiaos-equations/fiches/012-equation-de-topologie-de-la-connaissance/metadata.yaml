@@ -1,0 +1,14 @@
+{
+  "id": "EQ-0012",
+  "numero": 12,
+  "titre": "Équation de topologie de la connaissance",
+  "finalite": "Organiser les savoirs dans l’espace.",
+  "type": "equation-ou-modele",
+  "statut": "conceptuel-methodologique",
+  "image": "fiche.png",
+  "note": "note.md",
+  "source": "fiche visuelle générée dans la conversation",
+  "relations": [
+    "EQ-0042"
+  ]
+}

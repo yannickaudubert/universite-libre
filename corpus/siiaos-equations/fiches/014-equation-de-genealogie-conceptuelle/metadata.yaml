@@ -1,0 +1,14 @@
+{
+  "id": "EQ-0014",
+  "numero": 14,
+  "titre": "Équation de généalogie conceptuelle",
+  "finalite": "Tracer d’où vient une idée et comment elle se transforme.",
+  "type": "equation-ou-modele",
+  "statut": "conceptuel-methodologique",
+  "image": "fiche.png",
+  "note": "note.md",
+  "source": "fiche visuelle générée dans la conversation",
+  "relations": [
+    "EQ-0043"
+  ]
+}
