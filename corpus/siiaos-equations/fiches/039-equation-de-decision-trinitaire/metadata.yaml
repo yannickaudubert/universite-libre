@@ -1,0 +1,12 @@
+{
+  "id": "EQ-0039",
+  "numero": 39,
+  "titre": "Équation de décision trinitaire",
+  "finalite": "Transformer l’intégration en décision.",
+  "type": "equation-ou-modele",
+  "statut": "historique-symbolique-non-physique",
+  "image": "fiche.png",
+  "note": "note.md",
+  "source": "fiche visuelle générée dans la conversation",
+  "relations": []
+}
