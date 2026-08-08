@@ -1,0 +1,12 @@
+{
+  "id": "EQ-0026",
+  "numero": 26,
+  "titre": "Équation de la qualité de la donnée",
+  "finalite": "Évaluer la fiabilité et la valeur des données.",
+  "type": "equation-ou-modele",
+  "statut": "indicateur-conceptuel",
+  "image": "fiche.png",
+  "note": "note.md",
+  "source": "planche originale « Infographie des équations organisationnelles 21 à 30 »",
+  "relations": []
+}

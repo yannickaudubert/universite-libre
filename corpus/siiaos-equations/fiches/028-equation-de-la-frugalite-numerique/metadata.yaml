@@ -1,0 +1,12 @@
+{
+  "id": "EQ-0028",
+  "numero": 28,
+  "titre": "Équation de la frugalité numérique",
+  "finalite": "Faire mieux avec moins de ressources.",
+  "type": "equation-ou-modele",
+  "statut": "indicateur-conceptuel",
+  "image": "fiche.png",
+  "note": "note.md",
+  "source": "planche originale « Infographie des équations organisationnelles 21 à 30 »",
+  "relations": []
+}

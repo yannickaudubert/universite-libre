@@ -1,0 +1,12 @@
+{
+  "id": "EQ-0027",
+  "numero": 27,
+  "titre": "Équation de la valeur territoriale",
+  "finalite": "Maximiser la valeur créée pour le territoire.",
+  "type": "equation-ou-modele",
+  "statut": "indicateur-conceptuel",
+  "image": "fiche.png",
+  "note": "note.md",
+  "source": "planche originale « Infographie des équations organisationnelles 21 à 30 »",
+  "relations": []
+}
