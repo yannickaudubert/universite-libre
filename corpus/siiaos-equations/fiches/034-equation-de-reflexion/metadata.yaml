@@ -1,0 +1,12 @@
+{
+  "id": "EQ-0034",
+  "numero": 34,
+  "titre": "Équation de réflexion",
+  "finalite": "Croiser théories, histoire et axiomes.",
+  "type": "equation-ou-modele",
+  "statut": "historique-conceptuel-methodologique",
+  "image": "fiche.png",
+  "note": "note.md",
+  "source": "fiche visuelle générée dans la conversation",
+  "relations": []
+}

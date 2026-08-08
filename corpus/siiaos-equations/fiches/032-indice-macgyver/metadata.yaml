@@ -1,0 +1,12 @@
+{
+  "id": "EQ-0032",
+  "numero": 32,
+  "titre": "Indice MacGyver",
+  "finalite": "Mesurer l’ingéniosité opératoire.",
+  "type": "equation-ou-modele",
+  "statut": "modele-methodologique-symbolique",
+  "image": "fiche.png",
+  "note": "note.md",
+  "source": "fiche visuelle générée dans la conversation",
+  "relations": []
+}

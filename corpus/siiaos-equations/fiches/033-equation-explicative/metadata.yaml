@@ -1,0 +1,12 @@
+{
+  "id": "EQ-0033",
+  "numero": 33,
+  "titre": "Équation explicative",
+  "finalite": "Décomposer un problème pour le rendre intelligible.",
+  "type": "equation-ou-modele",
+  "statut": "historique-conceptuel-methodologique",
+  "image": "fiche.png",
+  "note": "note.md",
+  "source": "fiche visuelle générée dans la conversation",
+  "relations": []
+}

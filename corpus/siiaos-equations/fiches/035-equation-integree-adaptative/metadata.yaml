@@ -1,0 +1,12 @@
+{
+  "id": "EQ-0035",
+  "numero": 35,
+  "titre": "Équation intégrée adaptative",
+  "finalite": "Assembler les dimensions d’un système vivant.",
+  "type": "equation-ou-modele",
+  "statut": "historique-normalise-conceptuel-non-deterministe",
+  "image": "fiche.png",
+  "note": "note.md",
+  "source": "fiche visuelle générée dans la conversation",
+  "relations": []
+}
