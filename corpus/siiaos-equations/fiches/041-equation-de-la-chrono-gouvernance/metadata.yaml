@@ -1,0 +1,14 @@
+{
+  "id": "EQ-0041",
+  "numero": 41,
+  "titre": "Équation de la chrono-gouvernance",
+  "finalite": "Piloter validité, fraîcheur et dormance.",
+  "type": "equation-ou-modele",
+  "statut": "conceptuel-methodologique-non-valide-experimentalement",
+  "image": "fiche.png",
+  "note": "note.md",
+  "source": "fiche visuelle générée dans la conversation",
+  "relations": [
+    "EQ-0009"
+  ]
+}

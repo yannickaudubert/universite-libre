@@ -1,0 +1,14 @@
+{
+  "id": "EQ-0044",
+  "numero": 44,
+  "titre": "Équation du métabolisme biophysique",
+  "finalite": "Relier flux physiques, flux numériques et milieux vivants.",
+  "type": "equation-ou-modele",
+  "statut": "version-integrative-conceptuelle",
+  "image": "fiche.png",
+  "note": "note.md",
+  "source": "fiche visuelle générée dans la conversation",
+  "relations": [
+    "EQ-0018"
+  ]
+}
