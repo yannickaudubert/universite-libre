@@ -1,0 +1,14 @@
+{
+  "id": "EQ-0020",
+  "numero": 20,
+  "titre": "Équation de continuité agentique",
+  "finalite": "Faire durer un agent sans perdre sa cohérence.",
+  "type": "equation-ou-modele",
+  "statut": "conceptuel-methodologique",
+  "image": "fiche.png",
+  "note": "note.md",
+  "source": "fiche visuelle générée dans la conversation",
+  "relations": [
+    "EQ-0049"
+  ]
+}

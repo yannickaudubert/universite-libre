@@ -1,0 +1,14 @@
+{
+  "id": "EQ-0018",
+  "numero": 18,
+  "titre": "Équation du métabolisme biophysique",
+  "finalite": "Relier savoirs, infrastructures et matières réelles.",
+  "type": "equation-ou-modele",
+  "statut": "conceptuel-methodologique",
+  "image": "fiche.png",
+  "note": "note.md",
+  "source": "fiche visuelle générée dans la conversation",
+  "relations": [
+    "EQ-0044"
+  ]
+}
