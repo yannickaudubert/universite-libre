@@ -1,0 +1,12 @@
+{
+  "id": "EQ-0054",
+  "numero": 54,
+  "titre": "Équation des interactions duales",
+  "finalite": "Relier explication, réflexion et intégration.",
+  "type": "equation-ou-modele",
+  "statut": "schema-operatoire-conceptuel",
+  "image": "fiche.png",
+  "note": "note.md",
+  "source": "fiche visuelle générée dans la conversation",
+  "relations": []
+}

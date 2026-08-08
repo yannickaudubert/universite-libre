@@ -1,0 +1,14 @@
+{
+  "id": "EQ-0053",
+  "numero": 53,
+  "titre": "Équation de la genèse cyclique de l’information",
+  "finalite": "Faire mûrir un signal en compréhension opérable.",
+  "type": "equation-ou-modele",
+  "statut": "version-integrative",
+  "image": "fiche.png",
+  "note": "note.md",
+  "source": "fiche visuelle générée dans la conversation",
+  "relations": [
+    "EQ-0037"
+  ]
+}

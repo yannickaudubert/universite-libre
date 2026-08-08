@@ -1,0 +1,14 @@
+{
+  "id": "EQ-0051",
+  "numero": 51,
+  "titre": "Équation de la somme nuancée TORIC",
+  "finalite": "Contextualiser chaque élément avant de conclure.",
+  "type": "equation-ou-modele",
+  "statut": "version-conceptuelle",
+  "image": "fiche.png",
+  "note": "note.md",
+  "source": "fiche visuelle générée dans la conversation",
+  "relations": [
+    "EQ-0031"
+  ]
+}

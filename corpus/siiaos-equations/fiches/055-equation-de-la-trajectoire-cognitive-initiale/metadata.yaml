@@ -1,0 +1,12 @@
+{
+  "id": "EQ-0055",
+  "numero": 55,
+  "titre": "Équation de la trajectoire cognitive initiale",
+  "finalite": "Transformer un signal brut en lecture intelligible.",
+  "type": "equation-ou-modele",
+  "statut": "chaine-conceptuelle",
+  "image": "fiche.png",
+  "note": "note.md",
+  "source": "fiche visuelle générée dans la conversation",
+  "relations": []
+}
