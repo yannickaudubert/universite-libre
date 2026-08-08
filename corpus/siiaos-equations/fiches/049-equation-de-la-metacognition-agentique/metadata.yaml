@@ -1,0 +1,12 @@
+{
+  "id": "EQ-0049",
+  "numero": 49,
+  "titre": "Équation de la métacognition agentique",
+  "finalite": "Se connaître pour mieux agir et se corriger.",
+  "type": "equation-ou-modele",
+  "statut": "conceptuel-methodologique",
+  "image": "fiche.png",
+  "note": "note.md",
+  "source": "fiche visuelle générée dans la conversation",
+  "relations": []
+}
