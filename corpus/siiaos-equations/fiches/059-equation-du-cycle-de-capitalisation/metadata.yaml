@@ -1,0 +1,15 @@
+{
+  "id": "EQ-0059",
+  "numero": 59,
+  "titre": "Équation du cycle de capitalisation",
+  "finalite": "Transformer l’apprentissage en ressource réutilisable.",
+  "type": "equation-ou-modele",
+  "statut": "cycle-methodologique",
+  "image": "fiche.png",
+  "note": "note.md",
+  "source": "fiche visuelle générée dans la conversation",
+  "relations": [
+    "EQ-0008",
+    "EQ-0047"
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "id": "EQ-0058",
+  "numero": 58,
+  "titre": "Équation de la chaîne TraceOps",
+  "finalite": "Suivre les transformations du besoin jusqu’à la version.",
+  "type": "equation-ou-modele",
+  "statut": "chaine-de-preuve-et-provenance",
+  "image": "fiche.png",
+  "note": "note.md",
+  "source": "fiche visuelle générée dans la conversation",
+  "relations": [
+    "EQ-0007"
+  ]
+}

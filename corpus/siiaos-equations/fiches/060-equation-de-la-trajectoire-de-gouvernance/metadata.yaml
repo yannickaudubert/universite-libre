@@ -1,0 +1,15 @@
+{
+  "id": "EQ-0060",
+  "numero": 60,
+  "titre": "Équation de la trajectoire de gouvernance",
+  "finalite": "Donner une forme opérable à une décision.",
+  "type": "equation-ou-modele",
+  "statut": "chaine-methodologique-de-pilotage",
+  "image": "fiche.png",
+  "note": "note.md",
+  "source": "fiche visuelle générée dans la conversation",
+  "relations": [
+    "EQ-0005",
+    "EQ-0046"
+  ]
+}
