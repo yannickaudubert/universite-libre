@@ -1,0 +1,175 @@
+schema: siiaos.instance-manifest.v0.1
+status: working
+
+instance:
+  id: PRG-UNIVERSITE-LIBRE
+  name: Universite Libre
+  owner: Yannick Audubert
+  type: commons
+  purpose: >-
+    Structured personal wiki, free university and candidate knowledge commons for
+    concepts, methods, equations, courses, workshops, sources and reusable productions.
+  scope:
+    - knowledge
+    - pedagogy
+    - equations_and_models
+    - provenance
+    - publication_governance
+  lifecycle: active
+
+inherits:
+  authority_registry: governance/siiaos-authority-registry.yaml
+  constitution: SIIAOS-CONSTITUTION-2026-08-23
+  community_and_licensing: SIIAOS-COMMUNITY-CHARTER-1.0
+  operational_reference: SIIAOS-SOCLE-DIRECTEUR-0.1
+  overrides: []
+
+people_and_roles:
+  accountable_human: Yannick Audubert
+  users:
+    - contributors
+    - learners
+    - readers
+  roles:
+    - author
+    - contributor
+    - reviewer
+    - archivist
+  reviewers: []
+  guardians: []
+
+data:
+  classification: PUBLIC
+  allowed_sources:
+    - original_work
+    - attributed_external_sources
+    - reviewed_derivatives
+  forbidden_sources:
+    - client_confidential_material_without_explicit_authorization
+    - personal_data_without_lawful_basis
+    - third_party_content_without_rights
+  vaults:
+    - wiki
+    - universite
+    - corpus
+  corpus:
+    - SIIAOS equations and models
+  retention: versioned_git_history
+  export_policy: open_text_and_repository_export
+  deletion_policy: governed_by_provenance_and_applicable_rights
+
+missions:
+  allowed_workflows:
+    - research
+    - review
+    - pedagogy
+    - publication_candidate
+    - commons_promotion
+  forbidden_actions:
+    - automatic_publication_from_private_or_working_material
+    - silent_status_upgrade_from_hypothesis_to_validated_knowledge
+  governance_level: G1
+  autonomy_ceiling: N1
+  human_gate_required: true
+
+capabilities:
+  agents: []
+  skills: []
+  tools:
+    - Git
+    - Markdown
+    - YAML
+    - Obsidian-compatible editors
+  providers: []
+  connectors: []
+  local_fallback_required: true
+
+budgets:
+  time: null
+  compute: null
+  api: null
+  energy: null
+
+interfaces:
+  - GitHub repository
+  - Obsidian-compatible vault
+
+operations:
+  backup_plan: git_history_plus_local_clones
+  rollback_plan: revert_or_restore_prior_commit
+  healthchecks:
+    - repository_readable
+    - markdown_yaml_parseable
+  evidence_required:
+    - provenance
+    - status
+    - sources_when_applicable
+  observability:
+    - git_commits
+    - versioned_metadata
+
+value_scopes:
+  client_value:
+    enabled: false
+    confidential_assets: []
+  personal_value:
+    enabled: true
+    private_assets:
+      - unpublished_working_material_before_explicit_promotion
+  commons:
+    eligible: true
+    candidates:
+      - reviewed_methods
+      - courses
+      - workshops
+      - reusable_models
+      - public_documentation
+    forbidden:
+      - client_confidential_material
+      - personal_data
+      - secrets
+      - third_party_material_without_reuse_rights
+    promotion_requires:
+      - provenance_review
+      - rights_review
+      - privacy_review
+      - human_approval
+
+impact:
+  human:
+    - access_to_learning
+    - capacity_building
+  organizational:
+    - reusable_methods
+    - transmission
+  economic:
+    - shared_knowledge_without_erasing_paid_professional_work
+  territorial:
+    - reusable_learning_assets
+  ecological:
+    - local_first_and_reuse_preference
+  democratic:
+    - traceable_and_contestable_knowledge
+
+lineage:
+  source_repositories:
+    - yannickaudubert/universite-libre
+  source_documents:
+    - SIIAOS_CAHIER_DES_CHARGES_MAITRE_v0.1
+    - Charte_SIIAOS_communaute_licences_v1.0
+    - SIIAOS_00_Charte_Fondatrice_Socle_Directeur_2026-09-06
+  predecessors: []
+  supersedes: []
+
+validation:
+  last_reviewed_at: 2026-09-08
+  evidence:
+    - README.md
+    - governance/README.md
+    - governance/provenance.md
+  unresolved:
+    - >-
+      Repository-level public licensing remains unresolved: existing repository text
+      says the final licence is not fixed, while the SIIAOS community charter recommends
+      CC BY-SA 4.0 for explicitly published public SIIAOS content. No licence change is
+      made by this manifest.
