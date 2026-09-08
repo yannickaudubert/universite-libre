@@ -1,0 +1,101 @@
+schema: siiaos.instance-manifest.v0.1
+status: template
+
+instance:
+  id: PRG-OR-PRJ-ID
+  name: Human-readable name
+  owner: HUMAN_OR_ORGANIZATION_ID
+  type: personal|consultant|client|territory|commons|system
+  purpose: ""
+  scope: []
+  lifecycle: design|pilot|active|dormant|archived
+
+inherits:
+  authority_registry: governance/siiaos-authority-registry.yaml
+  constitution: SIIAOS-CONSTITUTION-2026-08-23
+  community_and_licensing: SIIAOS-COMMUNITY-CHARTER-1.0
+  operational_reference: SIIAOS-SOCLE-DIRECTEUR-0.1
+  overrides: []
+
+people_and_roles:
+  accountable_human: null
+  users: []
+  roles: []
+  reviewers: []
+  guardians: []
+
+data:
+  classification: PUBLIC|INTERNAL|SENSITIVE|CLIENT_CONFIDENTIAL
+  allowed_sources: []
+  forbidden_sources: []
+  vaults: []
+  corpus: []
+  retention: null
+  export_policy: null
+  deletion_policy: null
+
+missions:
+  allowed_workflows: []
+  forbidden_actions: []
+  governance_level: G0|G1|G2|G3|G4|G5
+  autonomy_ceiling: N0|N1|N2|N3|N4|N5
+  human_gate_required: true
+
+capabilities:
+  agents: []
+  skills: []
+  tools: []
+  providers: []
+  connectors: []
+  local_fallback_required: true
+
+budgets:
+  time: null
+  compute: null
+  api: null
+  energy: null
+
+interfaces: []
+
+operations:
+  backup_plan: null
+  rollback_plan: null
+  healthchecks: []
+  evidence_required: []
+  observability: []
+
+value_scopes:
+  client_value:
+    enabled: false
+    confidential_assets: []
+  personal_value:
+    enabled: false
+    private_assets: []
+  commons:
+    eligible: false
+    candidates: []
+    forbidden: []
+    promotion_requires:
+      - provenance_review
+      - rights_review
+      - privacy_review
+      - human_approval
+
+impact:
+  human: []
+  organizational: []
+  economic: []
+  territorial: []
+  ecological: []
+  democratic: []
+
+lineage:
+  source_repositories: []
+  source_documents: []
+  predecessors: []
+  supersedes: []
+
+validation:
+  last_reviewed_at: null
+  evidence: []
+  unresolved: []

@@ -1,0 +1,105 @@
+schema: siiaos.authority-registry.v0.1
+status: working
+observed_at: 2026-09-08
+purpose: >-
+  Resolve the SIIAOS constitutional, governance, rights, licensing and evidence
+  authorities without copying their full content into every project repository.
+
+rules:
+  - A project repository inherits shared SIIAOS rules by reference and declares only local specializations.
+  - Copying an authority into a project repository does not create a new authority.
+  - A newer synthesis does not silently repeal an older constitutional invariant.
+  - Constitution, accepted decisions, observed implementation, prototypes and historical material remain distinct.
+  - Project-specific data, client data and secrets never become commons by inheritance.
+
+authorities:
+  - id: SIIAOS-CONSTITUTION-2026-08-23
+    source_title: SIIAOS_CAHIER_DES_CHARGES_MAITRE_v0.1
+    date: 2026-08-23
+    authority_class: CONSTITUTION
+    status: active_reference
+    scope:
+      - finalities
+      - constitutional_invariants
+      - anti_objectives
+      - constitutional_requirements
+      - governance
+      - rights
+      - security
+      - evidence
+      - instances
+    notes: >-
+      Detailed master baseline. Includes the 12 constitutional invariants,
+      constitutional requirements, instance requirements and the amendment procedure.
+
+  - id: SIIAOS-COMMUNITY-CHARTER-1.0
+    source_title: Charte_SIIAOS_communaute_licences_v1.0
+    date: 2026-07-31
+    authority_class: COMMUNITY_AND_LICENSING_CHARTER
+    status: active_reference
+    scope:
+      - contributions
+      - authorship
+      - public_content
+      - client_confidentiality
+      - licensing_guidance
+      - moderation
+    notes: >-
+      Separates shared knowledge, software, data, professional services,
+      client deliverables and distinctive signs.
+
+  - id: SIIAOS-ARCHITECTURE-HANDOFF-2026-08-30
+    source_title: SIIAOS_ARCHITECTURE_AI_HANDOFF_2026-08-30
+    date: 2026-08-30
+    authority_class: HANDOFF_AND_SUCCESSION_RECORD
+    status: active_reference
+    scope:
+      - architecture_lineage
+      - operational_handoff
+      - authority_continuity
+      - constitutional_projection
+    notes: >-
+      Preserves the 12 invariants and records the ratified D-G0-001 controlled
+      dual-line succession for the technical core.
+
+  - id: SIIAOS-SOCLE-DIRECTEUR-0.1
+    source_title: SIIAOS_00_Charte_Fondatrice_Socle_Directeur_2026-09-06
+    date: 2026-09-06
+    authority_class: WORKING_REFERENCE
+    status: projection_not_replacement
+    scope:
+      - operational_principles
+      - seven_domains
+      - canonical_transformation_chain
+      - success_contract
+    notes: >-
+      Recent operational condensation. Its ten principles are treated as a projection
+      of the larger constitutional corpus, not as an implicit repeal of the 12 invariants.
+
+  - id: SIIAOS-CONCEPTUAL-ARCHITECTURE-0.2
+    source_title: SIIAOS-CONCEPTUAL-ARCHITECTURE-v0.2
+    authority_class: CONCEPTUAL_ARCHITECTURE
+    status: pilot
+    scope:
+      - constitution_boundary
+      - eden
+      - federation
+      - actors
+      - capabilities
+      - skills
+      - missions
+      - evidence
+
+known_conflicts:
+  - id: LICENCE-UNIVERSITE-LIBRE-001
+    status: unresolved
+    subject: default_public_licence
+    left: >-
+      The current universite-libre README and governance/licence.md state that the
+      final public licence is not yet fixed.
+    right: >-
+      The 2026-07-31 SIIAOS community charter recommends CC BY-SA 4.0 by default
+      for explicitly published public SIIAOS content, with explicit exclusions.
+    rule: >-
+      Do not silently change repository licensing. Resolve this conflict explicitly
+      before declaring existing university content to be a licensed SIIAOS common.
